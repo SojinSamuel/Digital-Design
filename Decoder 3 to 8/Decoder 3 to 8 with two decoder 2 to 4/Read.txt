@@ -1,0 +1,3 @@
+This is circuit of Decoder 3 to 8 with double decoder 2 to 4,
+use enable line for switch between decoders,
+and circuit runs with Ptoteus

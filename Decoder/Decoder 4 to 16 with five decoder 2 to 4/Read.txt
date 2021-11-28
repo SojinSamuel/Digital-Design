@@ -1,0 +1,4 @@
+This is circuit of Decoder 4 to 16 with five decoder 2 to 4,
+use enable line for switch between decoders,
+first decoder determine which decoder is avaliable for 4 other decoders that make 16 output
+and circuit runs with Ptoteus

@@ -1,0 +1,11 @@
+--** This is a part of my University Project **--
+This is cicuit of Simple CPU of computer ( it have many names, CPU 8 bit, mano's computer, simple computer and etc)
+This project have one Program file that use for program the circuit:
+Program.bin
+two Files for Roms:
+Rom1.bin and Rom2.bin that should be set for Roms
+
+This circuit designed in many sheet and you should change between sheets to see part of circuit
+
+* Circuit runs with Proteus
+

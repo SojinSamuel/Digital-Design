@@ -1,0 +1,9 @@
+--** This is my main University Project **--
+This is cicuit of Simple CPU of computer (it have many names, CPU 16 bit, mano's computer, simple computer and etc)
+
+all parts like ALU, Register(IR,DR,...) are designed.
+
+This program run manually workds with some instructions that descripted in description file, all of parts designed manually with sub circuits and I taking a lot time for design that.
+
+
+* Circuit runs with Proteus

@@ -1,0 +1,4 @@
+This is circuit of 16K memory with 12 address line, Write Enable, Output Enable, and Read Enable.
+sub circuit of this rom contain four 6116 component that connect with together with buss for create new line to have 12 bit address.
+
+* Run circuit with Proteus (V8.12)

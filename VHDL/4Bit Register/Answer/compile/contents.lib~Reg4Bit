@@ -1,0 +1,11 @@
+32
+~E 1 "../src/DFlipFlop.vhd" 26 DFF
+~A 1 "../src/DFlipFlop.vhd" 36 DffArch
+~E 1 "../src/HalfAdder.vhd" 28 HA
+~A 1 "../src/HalfAdder.vhd" 39 HaArch
+~E 1 "../src/Multiplexer.vhd" 28 MUX
+~A 1 "../src/Multiplexer.vhd" 41 MuxArch
+~E 1 "../src/Reg4B.vhd" 28 REG
+~A 1 "../src/Reg4B.vhd" 43 RegArch
+~E 1 "../src/TriState.vhd" 28 TST
+~A 1 "../src/TriState.vhd" 38 TstArch

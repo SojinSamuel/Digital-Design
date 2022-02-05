@@ -1,0 +1,38 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=Eercise_2
+[Library]
+Eercise_2=.\Eercise_2\Eercise_2.lib
+[$LibMap$]
+Eercise_2=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+[Files]
+/Priority encoder 4 to 2.vhd=-1
+/Priority encoder 4 to 2 logic.vhd=-1
+/Multiplexer 4 to 1.vhd=-1
+/Multiplexer 4 to 1 logic.vhd=-1
+/question 5.vhd=-1
+/Q5E2.vhd=-1
+[Files.Data]
+.\src\Priority encoder 4 to 2.vhd=VHDL Source Code
+.\src\Priority encoder 4 to 2 logic.vhd=VHDL Source Code
+.\src\Multiplexer 4 to 1.vhd=VHDL Source Code
+.\src\Multiplexer 4 to 1 logic.vhd=VHDL Source Code
+.\src\question 5.vhd=VHDL Source Code
+.\src\Q5E2.vhd=VHDL Source Code
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=q5|Q5C|0    
+ShowHide=ShowTopLevel
+Selected=

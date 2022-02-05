@@ -1,0 +1,290 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# Design: Design "coun" has been set as active.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# Design: Design "coun" has been set as active.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -O3 -e 100 -work coun -2002  $dsn/src/cou.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: H:/University/Unit 5/SystemDesign/Acrive HDL/Unit5/coun/src/cou.vhd
+# Compile Entity "counter"
+# Compile Architecture "arch" of Entity "counter"
+# Error: COMP96_0122: cou.vhd : (40, 2): Symbol "count" has already been declared in this scope.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work coun -2002  $dsn/src/cou.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: H:/University/Unit 5/SystemDesign/Acrive HDL/Unit5/coun/src/cou.vhd
+# Compile Entity "counter"
+# Compile Architecture "arch" of Entity "counter"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+asim -O5 +access +r +m+CNT CNT arch
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+acom -O3 -e 100 -work coun -2002  $dsn/src/counte.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: H:/University/Unit 5/SystemDesign/Acrive HDL/Unit5/coun/src/counte.vhd
+# Compile Entity "CNT"
+# Compile Architecture "arch" of Entity "CNT"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5396 kB (elbread=427 elab2=4830 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location H:\University\Unit 5\SystemDesign\Acrive HDL\Unit5\coun\src\wave.asdb
+#  4:29 PM, Saturday, November 13, 2021
+#  Simulation has been initialized
+acom -O3 -e 100 -work coun -2002  $dsn/src/cou.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: H:/University/Unit 5/SystemDesign/Acrive HDL/Unit5/coun/src/cou.vhd
+# Compile Entity "counter"
+# Compile Architecture "arch" of Entity "counter"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+counter counter arch
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5396 kB (elbread=427 elab2=4830 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location H:\University\Unit 5\SystemDesign\Acrive HDL\Unit5\coun\src\wave.asdb
+#  4:29 PM, Saturday, November 13, 2021
+#  Simulation has been initialized
+# add wave -noreg {/counter/clk}
+# add wave -noreg {/counter/count}
+# 2 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'H:/University/Unit 5/SystemDesign/Acrive HDL/Unit5/coun/src/wave.asdb'.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+run 100 us
+# RUNTIME: Fatal Error: RUNTIME_0067 cou.vhd (44): Value 256 out of range (0 to 255).
+# KERNEL: Time: 25550 ns,  Iteration: 0,  Instance: /counter,  Process: counter.
+# KERNEL: Stopped at time 25550 ns + 0.
+# VSIM: Error: Fatal error occurred during simulation.
+run 100 us
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work coun -2002  $dsn/src/cou.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: H:/University/Unit 5/SystemDesign/Acrive HDL/Unit5/coun/src/cou.vhd
+# Compile Entity "counter"
+# Compile Architecture "arch" of Entity "counter"
+# Error: COMP96_0015: cou.vhd : (44, 8): ';' expected.
+# Error: COMP96_0019: cou.vhd : (44, 8): Keyword 'end' expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.0 [ms]
+# ULM: Warning: ULM_0021 Architecture `arch' of entity `coun.counter' is not up-to-date. Please recompile file `H:\University\Unit 5\SystemDesign\Acrive HDL\Unit5\coun/src/cou.vhd'.
+acom -O3 -e 100 -work coun -2002  $dsn/src/cou.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: H:/University/Unit 5/SystemDesign/Acrive HDL/Unit5/coun/src/cou.vhd
+# Compile Entity "counter"
+# Compile Architecture "arch" of Entity "counter"
+# Error: COMP96_0015: cou.vhd : (44, 8): ';' expected.
+# Error: COMP96_0019: cou.vhd : (44, 8): Keyword 'end' expected.
+# Error: COMP96_0019: cou.vhd : (45, 8): Keyword 'process' expected.
+# Error: COMP96_0329: cou.vhd : (46, 3): Generate statement must have a label.
+# Error: COMP96_0019: cou.vhd : (46, 32): Keyword 'generate' expected.
+# Error: COMP96_0015: cou.vhd : (48, 7): ';' expected.
+# Error: COMP96_0016: cou.vhd : (48, 9): Design unit declaration expected.
+# Compile failure 7 Errors 0 Warnings  Analysis time :  0.0 [ms]
+# ULM: Warning: ULM_0021 Architecture `arch' of entity `coun.counter' is not up-to-date. Please recompile file `H:\University\Unit 5\SystemDesign\Acrive HDL\Unit5\coun/src/cou.vhd'.
+acom -O3 -e 100 -work coun -2002  $dsn/src/cou.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: H:/University/Unit 5/SystemDesign/Acrive HDL/Unit5/coun/src/cou.vhd
+# Compile Entity "counter"
+# Compile Architecture "arch" of Entity "counter"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work coun -2002  $dsn/src/cou.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: H:/University/Unit 5/SystemDesign/Acrive HDL/Unit5/coun/src/cou.vhd
+# Compile Entity "counter"
+# Compile Architecture "arch" of Entity "counter"
+# Error: COMP96_0015: cou.vhd : (46, 8): ';' expected.
+# Error: COMP96_0019: cou.vhd : (46, 8): Keyword 'end' expected.
+# Error: COMP96_0019: cou.vhd : (48, 7): Keyword 'process' expected.
+# Error: COMP96_0015: cou.vhd : (50, 7): ';' expected.
+# Error: COMP96_0016: cou.vhd : (50, 14): Design unit declaration expected.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work coun -2002  $dsn/src/cou.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: H:/University/Unit 5/SystemDesign/Acrive HDL/Unit5/coun/src/cou.vhd
+# Compile Entity "counter"
+# Compile Architecture "arch" of Entity "counter"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [ms]
+asim -O5 +access +r +m+counter counter arch
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5396 kB (elbread=427 elab2=4830 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location H:\University\Unit 5\SystemDesign\Acrive HDL\Unit5\coun\src\wave.asdb
+#  4:32 PM, Saturday, November 13, 2021
+#  Simulation has been initialized
+# add wave -noreg {/counter/clk}
+# add wave -noreg {/counter/count}
+# 2 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'H:/University/Unit 5/SystemDesign/Acrive HDL/Unit5/coun/src/wave.asdb'.
+run 10 us
+# KERNEL: stopped at time: 10 us
+acom -O3 -e 100 -work coun -2002  $dsn/src/cou.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: H:/University/Unit 5/SystemDesign/Acrive HDL/Unit5/coun/src/cou.vhd
+# Compile Entity "counter"
+# Compile Architecture "arch" of Entity "counter"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [ms]
+# add wave -noreg {/counter/clk}
+# add wave -noreg {/counter/count}
+# KERNEL: Warning: KERNEL_0291 Signal '/counter/clk' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/counter/count' has already been traced.
+# 0 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'H:/University/Unit 5/SystemDesign/Acrive HDL/Unit5/coun/src/wave.asdb'.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+counter counter arch
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5396 kB (elbread=427 elab2=4830 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location H:\University\Unit 5\SystemDesign\Acrive HDL\Unit5\coun\src\wave.asdb
+#  4:32 PM, Saturday, November 13, 2021
+#  Simulation has been initialized
+# add wave -noreg {/counter/clk}
+# add wave -noreg {/counter/count}
+# 2 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'H:/University/Unit 5/SystemDesign/Acrive HDL/Unit5/coun/src/wave.asdb'.
+run 10 us
+# KERNEL: stopped at time: 10 us
+acom -O3 -e 100 -work coun -2002  $dsn/src/cou.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: H:/University/Unit 5/SystemDesign/Acrive HDL/Unit5/coun/src/cou.vhd
+# Compile Entity "counter"
+# Compile Architecture "arch" of Entity "counter"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work coun -2002  $dsn/src/cou.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: H:/University/Unit 5/SystemDesign/Acrive HDL/Unit5/coun/src/cou.vhd
+# Compile Entity "counter"
+# Error: COMP96_0019: cou.vhd : (33, 1): Keyword 'end' expected.
+# Error: COMP96_0111: cou.vhd : (33, 1): Labels do not match.
+# Error: COMP96_0015: cou.vhd : (33, 3): ';' expected.
+# Error: COMP96_0016: cou.vhd : (33, 5): Design unit declaration expected.
+# Compile Architecture "arch" of Entity "counter"
+# Compile failure 4 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work coun -2002  $dsn/src/cou.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: H:/University/Unit 5/SystemDesign/Acrive HDL/Unit5/coun/src/cou.vhd
+# Compile Entity "counter"
+# Error: COMP96_0019: cou.vhd : (33, 1): Keyword 'end' expected.
+# Error: COMP96_0111: cou.vhd : (33, 1): Labels do not match.
+# Error: COMP96_0015: cou.vhd : (33, 3): ';' expected.
+# Error: COMP96_0016: cou.vhd : (33, 5): Design unit declaration expected.
+# Compile Architecture "arch" of Entity "counter"
+# Compile failure 4 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work coun -2002  $dsn/src/cou.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: H:/University/Unit 5/SystemDesign/Acrive HDL/Unit5/coun/src/cou.vhd
+# Compile Entity "counter"
+# Error: COMP96_0019: cou.vhd : (33, 1): Keyword 'end' expected.
+# Error: COMP96_0111: cou.vhd : (33, 1): Labels do not match.
+# Error: COMP96_0015: cou.vhd : (33, 3): ';' expected.
+# Error: COMP96_0016: cou.vhd : (33, 5): Design unit declaration expected.
+# Compile Architecture "arch" of Entity "counter"
+# Compile failure 4 Errors 0 Warnings  Analysis time :  16.0 [ms]
+asim -O5 +access +r +m+counter counter arch
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+acom -O3 -e 100 -work coun -2002  $dsn/src/cou.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: H:/University/Unit 5/SystemDesign/Acrive HDL/Unit5/coun/src/cou.vhd
+# Compile Entity "counter"
+# Compile Architecture "arch" of Entity "counter"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5396 kB (elbread=427 elab2=4830 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location H:\University\Unit 5\SystemDesign\Acrive HDL\Unit5\coun\src\wave.asdb
+#  4:37 PM, Saturday, November 13, 2021
+#  Simulation has been initialized
+# add wave -noreg {/counter/clk}
+# add wave -noreg {/counter/count}
+# 2 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'H:/University/Unit 5/SystemDesign/Acrive HDL/Unit5/coun/src/wave.asdb'.
+run 10 us
+# KERNEL: stopped at time: 10 us
+endsim
+# VSIM: Simulation has finished.

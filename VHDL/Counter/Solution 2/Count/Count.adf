@@ -1,0 +1,29 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=Count
+[Library]
+Count=.\Count\Count.lib
+[$LibMap$]
+Count=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+FLOWTOOLS=NONE
+REFRESH_FLOW=1
+FAMILY=
+CDebugWatchList=
+[Files]
+/Count.vhd=-1
+[Files.Data]
+.\src\Count.vhd=VHDL Source Code
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=cnt|arch|0   
+ShowHide=ShowTopLevel
+Selected=

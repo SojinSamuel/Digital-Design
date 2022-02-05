@@ -1,0 +1,10 @@
+15
+~E 1 "../src/Multiplexer 4 to 1.vhd" 28 Mux4to1
+~A 1 "../src/Multiplexer 4 to 1 logic.vhd" 38 Mux
+~E 1 "../src/Priority encoder 4 to 2.vhd" 28 PrrxEnc
+~A 1 "../src/Priority encoder 4 to 2.vhd" 38 PRXEN
+~E 1 "../src/Priority encoder 4 to 2 logic.vhd" 28 PrxEnc
+~A 1 "../src/Priority encoder 4 to 2 logic.vhd" 38 PrEn
+~E 1 "../src/Q5E2.vhd" 28 Q5
+~A 1 "../src/question 5.vhd" 44 circuit
+~A 1 "../src/Q5E2.vhd" 44 Q5C

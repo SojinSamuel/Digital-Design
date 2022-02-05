@@ -1,0 +1,5 @@
+18
+~E 1 "../src/counte.vhd" 29 CNT
+~A 1 "../src/counte.vhd" 39 arch
+~E 1 "../src/cou.vhd" 29 counter
+~A 1 "../src/cou.vhd" 37 arch

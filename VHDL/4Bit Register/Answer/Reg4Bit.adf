@@ -1,0 +1,36 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=Reg4Bit
+[Library]
+Reg4Bit=.\Reg4Bit\Reg4Bit.lib
+[$LibMap$]
+Reg4Bit=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+FLOWTOOLS=NONE
+REFRESH_FLOW=1
+FAMILY=
+[Files]
+/Reg4B.vhd=-1
+/Multiplexer.vhd=-1
+/HalfAdder.vhd=-1
+/DFlipFlop.vhd=-1
+/TriState.vhd=-1
+[Files.Data]
+.\src\Reg4B.vhd=VHDL Source Code
+.\src\Multiplexer.vhd=VHDL Source Code
+.\src\HalfAdder.vhd=VHDL Source Code
+.\src\DFlipFlop.vhd=VHDL Source Code
+.\src\TriState.vhd=VHDL Source Code
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=dff|DffArch|0 ha|HaArch|0 mux|MuxArch|0 reg|RegArch|0  
+ShowHide=ShowTopLevel
+Selected=

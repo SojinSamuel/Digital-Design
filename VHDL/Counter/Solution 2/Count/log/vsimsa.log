@@ -1,0 +1,27 @@
+echo <string>
+#################### Starting C Code Debug Session ######################
+cd $dsn/src
+VSIMSA: Configuration files: `E:\Aldec\Active-HDL-12-x64\vlib\library.cfg', `e:\aldec\active-hdl-12-x64\bin\vsimsa.cfg'
+amap Count $dsn/Count/Count.lib
+AMAP: Adding library mapping "Count" to "H:\University\Unit 5\SystemDesign\Acrive HDL\Unit5\Count\Count\Count.lib".
+set worklib Count
+VSIMSA: `Count' is now working library.
+# simulation
+asim -callbacks -O5 +access +r +m+Cnt Cnt arch
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+ELAB2: Elaboration final pass...
+ELAB2: Create instances ...
+KERNEL: Time resolution set to 1ps.
+ELAB2: Create instances complete.
+SLP: Started
+SLP: Elaboration phase ...
+SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+SLP: Finished : 0.0 [s]
+ELAB2: Elaboration final pass complete - time: 0.0 [s].
+KERNEL: Kernel process initialization done.
+Allocation: Simulator allocated 5398 kB (elbread=427 elab2=4832 kernel=138 sdf=0)
+KERNEL: ASDB file was created in location H:\University\Unit 5\SystemDesign\Acrive HDL\Unit5\Count\src\wave.asdb
+run -all

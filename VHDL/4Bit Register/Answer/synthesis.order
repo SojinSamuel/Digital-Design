@@ -1,0 +1,5 @@
+i<>.\src\Reg4B.vhd
+i<>.\src\Multiplexer.vhd
+i<>.\src\HalfAdder.vhd
+i<>.\src\DFlipFlop.vhd
+i<>.\src\TriState.vhd

@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: H:/University/Unit 5/SystemDesign/Acrive HDL/Unit5/Count/src/Count.vhd" 
+MESSAGE "Compile Entity "Cnt"" 
+MESSAGE "Compile Architecture "arch" of Entity "Cnt"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]" 

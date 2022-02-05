@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: H:/University/Unit 5/SystemDesign/Acrive HDL/Unit5/Eercise 2/src/Q5E2.vhd" 
+MESSAGE "Compile Entity "Q5"" 
+MESSAGE "Compile Architecture "Q5C" of Entity "Q5"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [ms]" 

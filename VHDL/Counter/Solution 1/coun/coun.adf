@@ -1,0 +1,58 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=coun
+[Library]
+coun=.\coun\coun.lib
+[$LibMap$]
+coun=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+FLOWTOOLS=NONE
+REFRESH_FLOW=1
+FAMILY=
+[Files]
+/counte.vhd=-1
+/cou.vhd=-1
+[Files.Data]
+.\src\counte.vhd=VHDL Source Code
+.\src\cou.vhd=VHDL Source Code
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=cnt|arch|0 counter|arch|0  
+ShowHide=ShowTopLevel
+Selected=
+[Folders]
+Name0=Event Lists
+Directory0=H:\University\Unit 5\SystemDesign\Acrive HDL\Unit5\coun\
+Extension0=lst
+Name1=Logs
+Directory1=H:\University\Unit 5\SystemDesign\Acrive HDL\Unit5\coun\
+Extension1=log;htm;xml;txt
+Name2=Waveforms
+Directory2=H:\University\Unit 5\SystemDesign\Acrive HDL\Unit5\coun\
+Extension2=asdb;awc;asdbc;asdbe
+Name3=Makefiles
+Directory3=H:\University\Unit 5\SystemDesign\Acrive HDL\Unit5\coun\
+Extension3=mak
+Name4=Memory
+Directory4=H:\University\Unit 5\SystemDesign\Acrive HDL\Unit5\coun\
+Extension4=mem;mif;hex
+Name5=Dll Libraries
+Directory5=H:\University\Unit 5\SystemDesign\Acrive HDL\Unit5\coun\
+Extension5=dll
+Name6=PDF
+Directory6=H:\University\Unit 5\SystemDesign\Acrive HDL\Unit5\coun\
+Extension6=pdf
+Name7=HTML
+Directory7=H:\University\Unit 5\SystemDesign\Acrive HDL\Unit5\coun\
+Extension7=htm;html
+Name8=ALINT-PRO Workspaces
+Directory8=H:\University\Unit 5\SystemDesign\Acrive HDL\Unit5\coun\
+Extension8=alintws

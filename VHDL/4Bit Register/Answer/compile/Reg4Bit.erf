@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: H:/University/Unit 5/SystemDesign/Acrive HDL/Unit5/Reg4Bit/src/Reg4B.vhd" 
+MESSAGE "Compile Entity "REG"" 
+MESSAGE "Compile Architecture "RegArch" of Entity "REG"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [ms]" 
